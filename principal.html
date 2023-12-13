@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Aplicación Asistencia!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="hero">
+        <div class="nav">
+            <div class="nav__title">
+                <h1>Mi Sitio APK</h1>
+                <div class="nav__link">
+                    <a class="nav__links" href="#download">Inicio</a>
+                    <a class="nav__links" href="#about">Acerca de</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero__container">
+            <h1 class="hero__title">Descarga nuestra aplicación</h1>
+            <p class="hero__paragraph">Descarga la aplicación en tu dispositivo móvil o PC.</p>
+            <a id="downloadLink" class="cta" href="#" onclick="downloadApk()">Descargar APK</a>
+            <div id="qrContainer" class="card-qr" style="display: none;">
+                <img src="archivos\imagenes\Untitled.png" alt="Imagen QR" class="card-img">
+            </div>
+        </div>
+
+        
+    </div>
+
+    <div id="about" class="about">
+        <div class="container">
+            <h2 class="subtitle">Acerca de</h2>
+            <div class="about__main">
+                <p class="about__paragraph">
+                    Esta aplicación fue realizada por estudiantes de Duoc Uc. con la finalidad de facilitar la metodología de asistencia a clase.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="logica.js"></script>
+</body>
+
+</html>
